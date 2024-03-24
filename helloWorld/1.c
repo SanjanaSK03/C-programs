@@ -23,7 +23,7 @@ int main()
     }
 
     output=fopen("output.txt","w");
-    for(j=0;j<i;j++)
+    for(j=0;j<i-1;j++)
     {
         fprintf(output,"%c",a[j]);
     }

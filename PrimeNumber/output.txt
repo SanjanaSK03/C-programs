@@ -1,1 +1,1 @@
-IT IS A PRIME NUMBER!
+Is prime number

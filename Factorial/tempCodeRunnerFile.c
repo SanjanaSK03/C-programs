@@ -3,6 +3,7 @@ int main()
 {
     int num;
     FILE *input,*output;
+    int fact=1;
     input=fopen("input.txt","r");
     if(input==NULL)
     {
@@ -10,24 +11,12 @@ int main()
         return 1;
     }
     fscanf(input,"%d",&num);
-    int flag=0;
-    for (int i = 2; i <=(num/2); i++) 
+    for (int i = 1; i <= num; i++) 
     {
-        if(num%i==0)
-        {
-            flag=1;
-            break;
-        }
+    fact=fact*i;
     }
 
     output=fopen("output.txt","w");
-    if(flag==0)
-    {
-        fprintf(output,"Is prime number");
-    }
-    else
-    {
-        fprintf(output,"Not a prime number");
-    }
+    fprintf(output,"%d",fact);
     return 0;
 }
