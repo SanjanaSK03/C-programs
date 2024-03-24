@@ -25,11 +25,11 @@ int main()
     output=fopen("output.txt","w");
     if(num==rev)
         {
-            fprintf(output,"Is a Palindrome");
+            fprintf(output,"Given number is a Palindrome");
         }
     else
     {
-        fprintf(output,"Is not a Palindrome");
+        fprintf(output,"Given number is not a Palindrome");
     }
     fclose(output);
     return 0;
