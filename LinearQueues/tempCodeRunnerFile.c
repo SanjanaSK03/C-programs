@@ -76,9 +76,8 @@ void display(struct queue *q, FILE *output)
     fprintf(output, "Queue elements are:\n");
     for (int i = q->front; i <= q->rear; i++)
     {
-        fprintf(output, "%d ", q->a[i]);
+        fprintf(output, "%d\n", q->a[i]);
     }
-    fprintf(output, "\n");
 }
 
 int main()

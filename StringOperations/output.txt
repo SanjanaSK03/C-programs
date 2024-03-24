@@ -1,0 +1,3 @@
+Concatenated string: abcdef
+Comparison result: -1
+Copied string: abc

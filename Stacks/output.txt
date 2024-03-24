@@ -1,11 +1,11 @@
-Elements in the stack: 1 2 3 4 5 
-Popped element=5
-Elements in the stack: 1 2 3 4 
-Popped element=4
-Elements in the stack: 1 2 3 
-Peak element=3
-Popped element=3
-Elements in the stack: 1 2 
+Elements in the stack: 4 9 2 8 1 
+Popped element=1
+Elements in the stack: 4 9 2 8 
+Popped element=8
+Elements in the stack: 4 9 2 
 Peak element=2
-Elements in the stack: 1 2 
+Popped element=2
+Elements in the stack: 4 9 
+Peak element=9
+Elements in the stack: 4 9 
 Size=2

@@ -1,14 +1,11 @@
 Queue elements are:
-1
-2
-3
-4
-Dequeued element: 1
+20 30 40 50 
+Dequeued element: 20
 Queue elements are:
-2
-3
-4
-Dequeued element: 2
+30 40 50 
+Dequeued element: 30
 Queue elements are:
-3
-4
+40 50 
+Dequeued element: 40
+Queue elements are:
+50 
