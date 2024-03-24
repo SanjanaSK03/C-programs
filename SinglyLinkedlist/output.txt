@@ -1,0 +1,6 @@
+List= 6 7 5 10 11 12 
+List= 6 15 7 5 10 11 12 
+List= 15 7 5 10 11 12 
+List= 15 7 5 10 11 
+List= 15 5 10 11 
+Element found
