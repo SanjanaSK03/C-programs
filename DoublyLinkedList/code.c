@@ -20,7 +20,7 @@ int deleteAtPos(struct node **head, int pos);
 int deleteNodeBeg(struct node **head);
 int deleteNodeEnd(struct node **head);
 void displayList(struct node *head, FILE *output);
-int Search(struct node *head, int d);
+
 
 void addNodeEnd(struct node **head,int d)
 {
