@@ -1,3 +1,10 @@
+/*
+A:Push
+B:Pop
+C:Peek
+D:Display
+S:Search
+*/
 #include <stdio.h>
 #define size 10
 struct stack
