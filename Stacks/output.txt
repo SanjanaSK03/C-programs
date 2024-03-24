@@ -1,0 +1,11 @@
+Elements in the stack: 1 2 3 4 5 
+Popped element=5
+Elements in the stack: 1 2 3 4 
+Popped element=4
+Elements in the stack: 1 2 3 
+Peak element=3
+Popped element=3
+Elements in the stack: 1 2 
+Peak element=2
+Elements in the stack: 1 2 
+Size=2
