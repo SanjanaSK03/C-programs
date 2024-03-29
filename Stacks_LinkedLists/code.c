@@ -1,3 +1,8 @@
+/*
+A-Push
+P-Pop
+D-Display
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define size 10
@@ -27,14 +32,16 @@ int pop(struct stack **top)
     free(cur);
     return e;
 }
-void displaystack(struct stack *top)
+void displaystack(struct stack *top,FILE *output)
 {
     struct stack *cur=top;
+    fprintf(output,"Stack: ");
     while(cur)
     {
-        printf("%d\n",cur->data);
+        fprintf(output,"%d ",cur->data);
         cur=cur->next;
     }
+    fprintf(output, "\n");
 }
 int main()
 {
@@ -46,29 +53,22 @@ int main()
         perror("Error in opening a file\n");
         return 1;
     }
-    int i=0;
-    int a[size];
-    while((fscanf(input,"%d",&a[i]))==1)
-    {
-        i++;
-    }
-    int j=0;
-    for(j=0;j<i;j++)
-    {
-        push(&top,a[j]);
-    }
-    displaystack(top);
     int val;
-    val=pop(&top);
-    printf("Popped element=%d\n",val);
-    printf("After popping:\n");
-    displaystack(top);
-    val=pop(&top);
-    printf("Popped element=%d\n",val);
-    printf("After popping:\n");
-    displaystack(top);
-    val=pop(&top);
-    printf("Popped element=%d\n",val);
-    printf("After popping:\n");
-    displaystack(top);
+    char ch;
+    output=fopen("output.txt","w");
+    while((fscanf(input,"%c",&ch))==1)
+    {
+        switch(ch)
+        {
+        case 'A':fscanf(input,"%d",&val);
+        push(&top,val);
+        break;
+        case 'P':val=pop(&top);
+        fprintf(output,"Popped element=%d\n",val);
+        break;
+        case 'D':displaystack(top,output);
+        break;
+        }
+    }
+    fclose(output);
 }

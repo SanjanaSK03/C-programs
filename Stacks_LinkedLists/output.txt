@@ -1,0 +1,7 @@
+Stack: 6 5 4 3 2 1 
+Popped element=6
+Stack: 5 4 3 2 1 
+Popped element=5
+Stack: 4 3 2 1 
+Popped element=4
+Stack: 3 2 1 
