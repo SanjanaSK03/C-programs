@@ -1,0 +1,9 @@
+add The Great Gatsby, F. Scott Fitzgerald,Fiction
+add To Kill a Mockingbird, Harper Lee,Fiction
+add Harry Potter, J. K. Rowling,Fiction
+display
+count
+delete To Kill a Mockingbird
+display
+clear
+display

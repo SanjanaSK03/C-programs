@@ -1,0 +1,29 @@
+Library:
+Title: Harry Potter
+Author:  J. K. Rowling
+Genre: Fiction
+
+Title: To Kill a Mockingbird
+Author:  Harper Lee
+Genre: Fiction
+
+Title: The Great Gatsby
+Author:  F. Scott Fitzgerald
+Genre: Fiction
+
+Total books in library: 3
+Book removed:
+Title: To Kill a Mockingbird
+Author:  Harper Lee
+Genre: Fiction
+Library:
+Title: Harry Potter
+Author:  J. K. Rowling
+Genre: Fiction
+
+Title: The Great Gatsby
+Author:  F. Scott Fitzgerald
+Genre: Fiction
+
+Library cleared.
+Library:

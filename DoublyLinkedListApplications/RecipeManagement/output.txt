@@ -1,0 +1,29 @@
+Recipe Collection:
+Title: Salad
+Ingredients: lettuce tomato cucumber
+Instructions: Chop vegetables and toss with lettuce. Serve with dressing of your choice.
+
+Title: Spaghetti
+Ingredients: pasta sauce cheese
+Instructions: Boil spaghetti until al dente. Mix with sauce and top with cheese. Bake until cheese is melted.
+
+Title: Pancakes
+Ingredients: flour milk eggs
+Instructions: Mix all ingredients together and cook on a greased pan until golden brown.
+
+Total recipes in collection: 3
+Recipe removed:
+Title: Spaghetti
+Ingredients: pasta sauce cheese
+Instructions: Boil spaghetti until al dente. Mix with sauce and top with cheese. Bake until cheese is melted.
+Recipe Collection:
+Title: Salad
+Ingredients: lettuce tomato cucumber
+Instructions: Chop vegetables and toss with lettuce. Serve with dressing of your choice.
+
+Title: Pancakes
+Ingredients: flour milk eggs
+Instructions: Mix all ingredients together and cook on a greased pan until golden brown.
+
+Recipe collection cleared.
+Recipe Collection:

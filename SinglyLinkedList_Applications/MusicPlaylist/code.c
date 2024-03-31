@@ -151,7 +151,7 @@ int main()
         }
         else if (!strcmp(x, "add"))
         {
-            fscanf(input, "%[^,],", songTitle);  
+            fscanf(input, "%[^,]", songTitle);  
             fscanf(input, " %[^\n]", artist);  
             addSong(&playlist, songTitle, artist);
         }

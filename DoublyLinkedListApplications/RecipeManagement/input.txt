@@ -1,0 +1,9 @@
+add Pancakes,flour milk eggs,Mix all ingredients together and cook on a greased pan until golden brown.
+add Spaghetti,pasta sauce cheese,Boil spaghetti until al dente. Mix with sauce and top with cheese. Bake until cheese is melted.
+add Salad,lettuce tomato cucumber,Chop vegetables and toss with lettuce. Serve with dressing of your choice.
+display
+count
+delete Spaghetti
+display
+clear
+display
