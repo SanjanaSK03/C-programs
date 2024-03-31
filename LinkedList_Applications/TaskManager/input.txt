@@ -1,0 +1,8 @@
+add Task1 3
+add Task2 2
+add Task3 1
+total
+display
+delete Task2
+total
+display

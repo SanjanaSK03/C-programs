@@ -1,0 +1,8 @@
+add Burger 150.00 2
+add Pizza 250.00 1
+add Coke 50.00 3
+total
+display
+delete Coke
+total
+display

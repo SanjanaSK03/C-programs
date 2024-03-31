@@ -1,0 +1,7 @@
+add abc 100 2
+add def 100 3
+add xyz 100 1
+display
+delete abc
+display
+total

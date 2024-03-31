@@ -1,0 +1,24 @@
+Total tasks: 3
+
+Task List:
+Task name: Task1
+Priority: 3
+
+Task name: Task2
+Priority: 2
+
+Task name: Task3
+Priority: 1
+
+Task removed:
+Task name: Task2
+Priority: 2
+Total tasks: 2
+
+Task List:
+Task name: Task1
+Priority: 3
+
+Task name: Task3
+Priority: 1
+

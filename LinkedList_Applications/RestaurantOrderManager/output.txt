@@ -1,0 +1,28 @@
+Total bill = Rs. 700.00
+Order List:
+Item: Burger
+Price: Rs. 150.00
+Quantity: 2
+
+Item: Pizza
+Price: Rs. 250.00
+Quantity: 1
+
+Item: Coke
+Price: Rs. 50.00
+Quantity: 3
+
+Order removed:
+Item: Coke
+Price: Rs. 50.00
+Quantity: 3
+Total bill = Rs. 550.00
+Order List:
+Item: Burger
+Price: Rs. 150.00
+Quantity: 2
+
+Item: Pizza
+Price: Rs. 250.00
+Quantity: 1
+

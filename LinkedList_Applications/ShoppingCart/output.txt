@@ -1,0 +1,28 @@
+Shopping Cart:
+Product name = xyz
+Price = Rs. 100.00
+Quantity = 1
+
+Product name = def
+Price = Rs. 100.00
+Quantity = 3
+
+Product name = abc
+Price = Rs. 100.00
+Quantity = 2
+
+Product removed:
+Product name = abc
+Price = Rs. 100.00
+Quantity = 2
+
+Shopping Cart:
+Product name = xyz
+Price = Rs. 100.00
+Quantity = 1
+
+Product name = def
+Price = Rs. 100.00
+Quantity = 3
+
+Cart total = Rs.400
