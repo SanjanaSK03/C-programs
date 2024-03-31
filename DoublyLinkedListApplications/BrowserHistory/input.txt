@@ -1,0 +1,9 @@
+add https://www.example.com/page1 2024-03-31 10:00:00
+add https://www.example.com/page2 2024-03-31 11:30:00
+add https://www.example.com/page3 2024-03-31 13:45:00
+display
+count
+delete https://www.example.com/page2
+display
+clear
+display

@@ -1,0 +1,9 @@
+add Sweater Weather,NBHD
+add Skin N Bones,David Kushner
+add Labour,Paris Paloma
+display
+delete Skin N Bones
+display
+count
+clear
+display

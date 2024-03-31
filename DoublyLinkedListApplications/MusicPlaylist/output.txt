@@ -1,0 +1,23 @@
+Playlist:
+Title:  Labour
+Artist: Paris Paloma
+
+Title:  Skin N Bones
+Artist: David Kushner
+
+Title:  Sweater Weather
+Artist: NBHD
+
+Song removed:
+Title:  Skin N Bones
+Artist: David Kushner
+Playlist:
+Title:  Labour
+Artist: Paris Paloma
+
+Title:  Sweater Weather
+Artist: NBHD
+
+Total songs in playlist: 2
+Playlist cleared.
+Playlist:

@@ -1,0 +1,11 @@
+Browser History:
+URL: https://www.example.com/page3, Timestamp: 2024-03-31
+URL: https://www.example.com/page2, Timestamp: 2024-03-31
+URL: https://www.example.com/page1, Timestamp: 2024-03-31
+Total URLs in history: 3
+URL removed: https://www.example.com/page2, Timestamp: 2024-03-31
+Browser History:
+URL: https://www.example.com/page3, Timestamp: 2024-03-31
+URL: https://www.example.com/page1, Timestamp: 2024-03-31
+History cleared.
+Browser History:
