@@ -1,0 +1,10 @@
+Customer 1 (John) entered the queue.
+Customer 2 (Alice) entered the queue.
+Customer 3 (Bob) entered the queue.
+Customer 4 (Emily) entered the queue.
+Customer 5 (David) entered the queue.
+Customer 1 served and left the supermarket.
+Customer 2 served and left the supermarket.
+Customer 3 served and left the supermarket.
+Customer 4 served and left the supermarket.
+Customer 5 served and left the supermarket.

@@ -1,0 +1,10 @@
+Visitor 1 (John) entered the queue for the theme park.
+Visitor 2 (Alice) entered the queue for the theme park.
+Visitor 3 (Bob) entered the queue for the theme park.
+Visitor 4 (Emily) entered the queue for the theme park.
+Visitor 5 (David) entered the queue for the theme park.
+Visitor 1 (David) served and entered the theme park.
+Visitor 2 (David) served and entered the theme park.
+Visitor 3 (David) served and entered the theme park.
+Visitor 4 (David) served and entered the theme park.
+Visitor 5 (David) served and entered the theme park.

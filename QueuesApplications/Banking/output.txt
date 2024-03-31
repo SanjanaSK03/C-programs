@@ -1,0 +1,10 @@
+Customer 1 (John) entered the banking queue.
+Customer 2 (Alice) entered the banking queue.
+Customer 3 (Bob) entered the banking queue.
+Customer 4 (Emily) entered the banking queue.
+Customer 5 (David) entered the banking queue.
+Customer 1 (David) served and left the bank.
+Customer 2 (David) served and left the bank.
+Customer 3 (David) served and left the bank.
+Customer 4 (David) served and left the bank.
+Customer 5 (David) served and left the bank.

@@ -1,0 +1,10 @@
+Patient 1 (John) entered the emergency services queue.
+Patient 2 (Alice) entered the emergency services queue.
+Patient 3 (Bob) entered the emergency services queue.
+Patient 4 (Emily) entered the emergency services queue.
+Patient 5 (David) entered the emergency services queue.
+Patient 1 (David) served and left the emergency services.
+Patient 2 (David) served and left the emergency services.
+Patient 3 (David) served and left the emergency services.
+Patient 4 (David) served and left the emergency services.
+Patient 5 (David) served and left the emergency services.

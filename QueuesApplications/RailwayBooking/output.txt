@@ -1,0 +1,10 @@
+Passenger 1 (John) entered the railway booking queue.
+Passenger 2 (Alice) entered the railway booking queue.
+Passenger 3 (Bob) entered the railway booking queue.
+Passenger 4 (Emily) entered the railway booking queue.
+Passenger 5 (David) entered the railway booking queue.
+Passenger 1 (David) booked the ticket and left the queue.
+Passenger 2 (David) booked the ticket and left the queue.
+Passenger 3 (David) booked the ticket and left the queue.
+Passenger 4 (David) booked the ticket and left the queue.
+Passenger 5 (David) booked the ticket and left the queue.
