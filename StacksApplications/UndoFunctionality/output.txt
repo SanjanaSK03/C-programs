@@ -1,0 +1,5 @@
+Stack: 30 20 10 
+Popped element = 30
+Stack: 20 10 
+Undo performed. Element = 30
+Stack: 30 20 10 

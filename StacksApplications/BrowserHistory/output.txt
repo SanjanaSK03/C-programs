@@ -1,0 +1,6 @@
+Browser History:
+https://www.example2.com
+https://www.example.com
+Navigated back to: https://www.example2.com
+Browser History:
+https://www.example.com
