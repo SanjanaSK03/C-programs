@@ -119,29 +119,32 @@ int main()
         return 1;
     }
     int p;
-    char n[50], x[20];
-    while (fscanf(input, "%s", x) != EOF)
+    char n[50];
+    char x;
+    while (fscanf(input, "%c", x) ==1)
     {
-        if (!strcmp(x, "delete"))
+        switch(x)
         {
+        case 'D':
             fscanf(input, "%s", n);
             DeleteTask(&head, n, output);
-        }
-        else if (!strcmp(x, "display"))
-        {
+    
+        break;
+        case 'P':
             fprintf(output, "Task List:\n");
             displayList(head, output);
-        }
-        else if (!strcmp(x, "add"))
-        {
+            break;
+        case 'A':
+        
             fscanf(input, "%s %d", n, &p);
             addTask(&head, n, p);
-        }
-        else if (!strcmp(x, "total"))
-        {
+        
+        break;
+        case 'c':
             countTask(head, output);
-        }
-    }
+            break;
+}  
+    
     fclose(output);
     return 0;
 }
