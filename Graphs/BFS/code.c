@@ -70,7 +70,7 @@ int main()
 
     // BFS Implementation
     int node;
-    int i = 0;
+    int i = 4;
     int visited[7] = {0, 0, 0, 0, 0, 0, 0};
     int a[7][7] = {
         {0, 1, 1, 1, 0, 0, 0},

@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define max 10
 
-int visited[7] = {0, 0, 0, 0, 0, 0, 0};
-int a[7][7] = {
+int adj_matrix[7][7] = {
         {0, 1, 1, 1, 0, 0, 0},
         {1, 0, 1, 0, 0, 0, 0},
         {1, 1, 0, 1, 1, 0, 0},
@@ -12,69 +10,58 @@ int a[7][7] = {
         {0, 0, 1, 1, 0, 1, 1},
         {0, 0, 0, 0, 1, 0, 0},
         {0, 0, 0, 0, 1, 0, 0}};
+int visited[7];
 
 struct Stack {
+    int arr[7];
     int top;
-    int arr[max];
 };
 
-// Function to initialize the stack
-void initialize(struct Stack *stack) {
-    stack->top = -1;
+void push(struct Stack *s, int value) {
+    s->arr[++(s->top)] = value;
 }
 
-// Function to check if the stack is empty
-int isEmpty(struct Stack *stack) {
-    return stack->top == -1;
+int pop(struct Stack *s) {
+    return s->arr[(s->top)--];
 }
 
-// Function to push an element onto the stack
-void push(struct Stack *stack, int value) {
-    if (stack->top == max - 1) {
-        printf("Stack Overflow\n");
-        return;
-    }
-    stack->arr[++stack->top] = value;
+int isEmpty(struct Stack *s) {
+    return s->top == -1;
 }
 
-// Function to pop an element from the stack
-int pop(struct Stack *stack) {
-    if (isEmpty(stack)) {
-        printf("Stack Underflow\n");
-        return -1;
-    }
-    return stack->arr[stack->top--];
-}
-
-void DFS(int vertex) 
+void dfs(int start_node, int n) 
 {
     struct Stack s;
-    initialize(&s);
+    s.top = -1;
+    push(&s, start_node);
 
-    push(&s, vertex);
-    visited[vertex] = 1;
+    while (!isEmpty(&s)) {
+        int current_node = pop(&s);
+        if (!visited[current_node]) {
+            printf("%d ", current_node);
+            visited[current_node] = 1;
 
-    printf("%d ", vertex);
-    int i;
-    while (!isEmpty(&s)) 
-    {
-        int current = pop(&s);
-        for (i = 0; i < 7; i++) 
-        {
-            if (a[current][i] == 1 && visited[i] == 0) 
-            {
-                push(&s, i);
-                visited[i] = 1;
-                printf("%d ", i);
+            for (int i = 0; i < n; i++) {
+                if (adj_matrix[current_node][i] && !visited[i]) {
+                    push(&s, i);
+                }
             }
         }
     }
 }
 
 int main() {
-    printf("Depth First Search Traversal: ");
-    DFS(0); // Start DFS from vertex 0
-    printf("\n");
+    int start_node;
+    printf("Enter the starting node: ");
+    scanf("%d", &start_node);
+
+    // Reset visited array
+    for (int i = 0; i < 7; i++) {
+        visited[i] = 0;
+    }
+
+    printf("DFS Traversal: ");
+    dfs(start_node, 7);
 
     return 0;
 }
